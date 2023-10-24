@@ -1,8 +1,17 @@
 import React from "react";
-
+import profile from '../img/profile.jpg'
 const Navbar =()=>{
     return (
-        <div>Navbar</div>
+        <div className="navbar">
+            <span className="logo">
+                Baatein
+            </span>
+            <div className="user">
+                <img src={profile} alt=""/>
+                <span>Ria</span>
+                <button>logout</button>
+            </div>
+        </div>
     )
 }
 
